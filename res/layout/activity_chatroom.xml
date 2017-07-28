@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zev.swift.ChatroomActivity">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/edtMessage"/>
+    <EditText
+        android:id="@id/edtMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btnSend"/>
+    <Button
+        android:id="@id/btnSend"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tvMessage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/send"
+        />
+
+	</RelativeLayout>
+    
+    
+	<fragment
+	    android:id="@+id/device_list"
+	    android:name="com.zev.swift.DeviceListFragment"
+	    android:layout_height="match_parent"
+	    android:layout_width="240dp"
+	    android:layout_gravity="end"
+	    />
+	<fragment
+	    android:id="@+id/file_list"
+	    android:name="com.zev.swift.FileListFragment"
+	    android:layout_height="match_parent"
+	    android:layout_width="240dp"
+	    android:layout_gravity="start"
+	    />
+</android.support.v4.widget.DrawerLayout>

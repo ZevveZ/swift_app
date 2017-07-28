@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swift</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">请选择想要建立的服务类型：</string>
+    <string name="server">服务器</string>
+    <string name="client">客户端</string>
+    <string name="title_activity_chat_room_server">聊天室</string>
+    <string name="title_activity_chat_room_client">聊天室</string>
+    <string name="send">发送</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="nickname">个性化昵称：</string>
+    <string name="server_port">服务器端口号：</string>
+    <string name="store_path">保存文件路径：</string>
+    <string name="title_activity_chatroom">ChatroomActivity</string>
+    <string name="discover_peers">发现</string>
+    <string name="empty_device_list">没有可用的设备</string>
+    <string name="empty_directory_list">未知目录</string>
+    <string name="device_list_connect">连接</string>
+    <string name="device_list_disconnect">断开</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

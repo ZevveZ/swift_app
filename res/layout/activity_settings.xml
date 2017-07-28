@@ -1,0 +1,44 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zev.swift.Settings"
+    android:stretchColumns="1">
+    
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nickname"/>
+        
+        <EditText
+            android:id="@+id/edtNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+	
+   <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/server_port"/>
+        
+        <EditText
+            android:id="@+id/edtServerPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+   </TableRow>
+   
+   <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store_path"/>
+        
+        <EditText
+            android:id="@+id/edtStorePath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+   </TableRow>
+
+</TableLayout>

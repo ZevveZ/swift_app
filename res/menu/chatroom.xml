@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zev.swift.ChatroomActivity" >
+
+    <item
+        android:id="@+id/discover_peers"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/discover_peers"/>
+	
+</menu>
